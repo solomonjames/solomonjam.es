@@ -19,6 +19,7 @@
 	<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.7.1/build/cssbase/cssbase-min.css" />
 	<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.7.1/build/cssgrids/grids-min.css" />
 	<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.7.1/build/cssfonts/cssfonts-min.css" />
+	<link rel="stylesheet" type="text/css" href="https://raw.github.com/solomonjames/solomonjam.es/master/style.css" />
 
 	<style type="text/css">
 	

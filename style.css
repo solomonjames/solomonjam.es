@@ -22,7 +22,7 @@ h1, h2 {
 }
 
 h1 span {
-	background: url(../images/textGradient.png) repeat-x;
+	background: url(images/textGradient.png) repeat-x;
 	position:absolute;
 	display:block;
 	width:100%;
@@ -103,7 +103,7 @@ dt {
 
 #Header {
     background-color:#4f545a;
-    background-image:url(../images/leftSide-chopped.png);
+    background-image:url(images/leftSide-chopped.png);
     background-position:right;
     background-repeat:repeat-y;
 }
@@ -135,7 +135,7 @@ dt {
             display: inline-block;
             height: 16px;
             width: 16px;
-            background-image: url(../images/social_media/16/sprite.png);
+            background-image: url(images/social_media/16/sprite.png);
         }
         
         #SocialMedia_Twitter {
@@ -231,18 +231,18 @@ dt {
     #Content_Box_Top {}
     
         #Content_Box_Top_Left {
-            background: url("/images/panel-top-left.png") no-repeat bottom left;
+            background: url("images/panel-top-left.png") no-repeat bottom left;
             width: 11px;
             height: 9px;
         }
     
         #Content_Box_Top_Middle {
-            background: url("/images/panel-top.png") repeat-x bottom;
+            background: url("images/panel-top.png") repeat-x bottom;
             height: 5px;
         }
     
         #Content_Box_Top_Right {
-            background: url("/images/panel-top-right.png") no-repeat top bottom;
+            background: url("images/panel-top-right.png") no-repeat top bottom;
             width: 11px;
             height: 9px;
         }
@@ -250,35 +250,35 @@ dt {
     #Content_Box_Center {}
     
         #Content_Box_Center_Left {
-            background: url("/images/panel-left.png") repeat-y right;
+            background: url("images/panel-left.png") repeat-y right;
             width: 11px;
         }
     
         #Content_Box_Center_Middle {
-            background: url("/images/panel-content.png") #DDDDDD repeat-x top;
+            background: url("images/panel-content.png") #DDDDDD repeat-x top;
             padding: 10px;
         }
     
         #Content_Box_Center_Right {
-            background: url("/images/panel-right.png") repeat-y left;
+            background: url("images/panel-right.png") repeat-y left;
             width: 11px;
         }
     
     #Content_Box_Bottom {}
     
         #Content_Box_Bottom_Left {
-            background: url("/images/panel-bottom-left.png") no-repeat top left;
+            background: url("images/panel-bottom-left.png") no-repeat top left;
             width: 11px;
             height: 9px;
         }
     
         #Content_Box_Bottom_Middle {
-            background: url("/images/panel-bottom.png") repeat-x top;
+            background: url("images/panel-bottom.png") repeat-x top;
             height: 8px;
         }
     
         #Content_Box_Bottom_Right {
-            background: url("/images/panel-bottom-right.png") no-repeat top left;
+            background: url("images/panel-bottom-right.png") no-repeat top left;
             width: 11px;
             height: 9px;
         }
