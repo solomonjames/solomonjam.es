@@ -103,7 +103,7 @@ dt {
 
 #Header {
     background-color:#4f545a;
-    background-image:url(images/leftSide-chopped.png);
+    background-image:url(https://raw.github.com/solomonjames/solomonjam.es/master/images/leftSide-chopped.png);
     background-position:right;
     background-repeat:repeat-y;
 }
@@ -135,7 +135,7 @@ dt {
             display: inline-block;
             height: 16px;
             width: 16px;
-            background-image: url(images/social_media/16/sprite.png);
+            background-image: url(https://raw.github.com/solomonjames/solomonjam.es/master/images/social_media/16/sprite.png);
         }
         
         #SocialMedia_Twitter {
