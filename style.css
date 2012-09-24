@@ -1,0 +1,290 @@
+@charset "UTF-8";
+
+* { margin: 0; padding: 0; border: none; outline: none; text-decoration: none; }
+
+html, body {
+	background-color:#42474d;
+	height: 100%;
+	/*overflow:hidden;*/
+}
+
+h1 {
+    font-size: 19pt;
+}
+
+h1, h2 {
+    position: relative;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #FFFFFF;
+    font-weight: normal;
+    text-shadow: rgba(0,0,0,0.75) 0px 1px 2px;
+    margin-bottom: 0;
+}
+
+h1 span {
+	background: url(../images/textGradient.png) repeat-x;
+	position:absolute;
+	display:block;
+	width:100%;
+	height:30px;	
+}
+
+h3 {
+	font-size:10pt;
+}
+
+input.error,
+textarea.error {
+    border: 1px solid red !important;
+}
+
+label.error {
+    margin: 0px 0px 0px 10px;
+    font-size: 85%;
+}
+
+div.flashMessage.good {
+    color: green;
+    text-shadow: 0 0 0 rgba(255, 255, 255, 0);
+    font-weight: bold;
+}
+
+dt {
+    margin: 10px 0 0 0;
+}
+
+#name, #email, #message {
+	border:1px #A5A5A5 solid;
+	background-color:#FFFFFF;;
+	font-family:Helvetica, Arial, sans-serif;
+	font-size:10pt;
+	resize:none;
+	color:#888888;
+}
+
+.italic {
+    font-style: italic;
+}
+
+#name, #email {
+	height:20px;
+	width:166px;
+	padding-top:4px;
+	padding-bottom:2px;
+	padding-left:2px;
+	padding-right:2px;
+}
+
+#message {
+	width:344px;
+	height:51px;
+	padding-top:4px;
+	padding-bottom:2px;
+	padding-left:2px;
+	padding-right:2px;
+}
+
+#submit {
+	padding-top:6px;
+}
+
+#layout {
+    height: 100%;
+}
+
+.inner {
+    position: relative;
+    top: 40%;
+}
+
+.section {
+    height: 100%;
+}
+
+#Header {
+    background-color:#4f545a;
+    background-image:url(../images/leftSide-chopped.png);
+    background-position:right;
+    background-repeat:repeat-y;
+}
+
+    #Header_Inner {
+        margin-right: 50px;
+        text-align: right;
+    }
+
+        #title {
+            height:66px;
+            line-height:26px;
+            cursor:pointer;
+        }
+        
+        #SocialMedia {
+        }
+        
+        #SocialMedia ul {
+            margin: 0;
+        }
+        
+        #SocialMedia ul li {
+            list-style: none;
+            display: inline;
+        }
+        
+        #SocialMedia ul li a {
+            display: inline-block;
+            height: 16px;
+            width: 16px;
+            background-image: url(../images/social_media/16/sprite.png);
+        }
+        
+        #SocialMedia_Twitter {
+            background-position: 0px 0px;
+        }
+        #SocialMedia_Twitter:hover {
+            background-position: 0px -16px;
+        }
+        
+        #SocialMedia_Delicious {
+            background-position: 0px -32px;
+        }
+        #SocialMedia_Delicious:hover {
+            background-position: 0px -48px;
+        }
+        
+        #SocialMedia_Linkedin {
+            background-position: 0px -64px;
+        }
+        #SocialMedia_Linkedin:hover {
+            background-position: 0px -80px;
+        }
+        
+        #SocialMedia_Aol {
+            background-position: 0px -96px;
+        }
+        #SocialMedia_Aol:hover {
+            background-position: 0px -112px;
+        }
+        
+.titleSubText {
+    font-family:Helvetica, Arial, sans-serif;
+    color:#a2a0a0;
+    font-size:10pt;
+    text-shadow: rgba(0,0,0,0.5) 0px 1px 2px;
+}
+
+#Left_Fixed {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+#Navigation {
+}
+
+    #Navigation ul {
+        margin-left: 0;
+    }
+
+        #Navigation ul li {
+            list-style: none;
+            padding: 5px 0;
+        }
+    
+        #Navigation ul li a {
+            color: #DDDDDD;
+        }
+        #Navigation ul li a:hover {
+            color: #FFFFFF;
+        }
+.nav-list-style {
+    color: #FFFFFF;
+}
+
+.Content_Table {
+    display: table;
+    width: 100%;
+}
+.Content_Table_Cell {
+    display: table-cell;
+}
+
+#Content {
+    float: right;
+    width: 58%;
+}
+
+    #Content_Inner {
+        width: 80%;
+        text-shadow: 0 1px 0 rgba(255, 255, 255, 0.75);
+        color: #434242;
+    }
+    
+    #Content_Inner h3 {
+        font-size: 11pt;
+    }
+    
+    #Content_Title {
+        margin-left: 11px;
+    }
+    
+    #Content_Box_Top {}
+    
+        #Content_Box_Top_Left {
+            background: url("/images/panel-top-left.png") no-repeat bottom left;
+            width: 11px;
+            height: 9px;
+        }
+    
+        #Content_Box_Top_Middle {
+            background: url("/images/panel-top.png") repeat-x bottom;
+            height: 5px;
+        }
+    
+        #Content_Box_Top_Right {
+            background: url("/images/panel-top-right.png") no-repeat top bottom;
+            width: 11px;
+            height: 9px;
+        }
+    
+    #Content_Box_Center {}
+    
+        #Content_Box_Center_Left {
+            background: url("/images/panel-left.png") repeat-y right;
+            width: 11px;
+        }
+    
+        #Content_Box_Center_Middle {
+            background: url("/images/panel-content.png") #DDDDDD repeat-x top;
+            padding: 10px;
+        }
+    
+        #Content_Box_Center_Right {
+            background: url("/images/panel-right.png") repeat-y left;
+            width: 11px;
+        }
+    
+    #Content_Box_Bottom {}
+    
+        #Content_Box_Bottom_Left {
+            background: url("/images/panel-bottom-left.png") no-repeat top left;
+            width: 11px;
+            height: 9px;
+        }
+    
+        #Content_Box_Bottom_Middle {
+            background: url("/images/panel-bottom.png") repeat-x top;
+            height: 8px;
+        }
+    
+        #Content_Box_Bottom_Right {
+            background: url("/images/panel-bottom-right.png") no-repeat top left;
+            width: 11px;
+            height: 9px;
+        }
+        
+/*********** Resume Page *******************/
+
+.resume-block {
+    padding: 0px 0px 0px 25px;
+}
